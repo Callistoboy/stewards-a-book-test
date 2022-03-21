@@ -1,15 +1,13 @@
 ---
-title: Material for MkDocs
+title: 1Material for MkDocs
 ---
 
-{% block tabs %}
-  {{ super() }}
   <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+          <img src="" alt="" width="1659" height="1200" draggable="false">
         </div>
         <div class="mdx-hero__content">
           <h1>Technical documentation that just works</h1>
@@ -24,6 +22,3 @@ title: Material for MkDocs
       </div>
     </div>
   </section>
-{% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
