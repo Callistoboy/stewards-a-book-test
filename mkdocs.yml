@@ -1,11 +1,11 @@
 # Project information
-site_name: How to install MkDocs on Mac and setup integration with GitHub?
+site_name: Блок А - ФК Зенит
 site_url: https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
-site_author: Thomas Südbröcker
+site_author: Pavskii Artem
 
 # Repository
-repo_name: How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
-repo_url: https://github.com/thomassuedbroecker/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
+repo_name: stewards-a-book-test
+repo_url: https://github.com/
 edit_uri: edit/master/docs
 docs_dir: docs
 
@@ -18,27 +18,27 @@ nav:
     - 2 Verify your documentation and build the pages: steps/2-Verify-your-documentation-and-build-the-pages.md
     - 3 Setup the integration to your GitHub project: steps/3-Setup-the-integration-to-your-GitHub-project.md
 
-## DO NOT CHANGE BELOW THIS LINE
-
-# Copyright
-# TBD
-
 # Theme
 theme:
   name: material
+#   font:
+#     text: IBM Plex Sans
+#     code: IBM Plex Mono
+  language: ru
   font:
-    text: IBM Plex Sans
-    code: IBM Plex Mono
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
   icon:
     logo: material/library
   features:
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.instant
     - navigation.expand
   palette:
     scheme: default
-    primary: blue
-    accent: blue
+    primary: deep purple
+    accent: deep purple
 
 # Plugins
 plugins:
