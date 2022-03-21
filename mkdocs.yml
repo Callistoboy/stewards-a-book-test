@@ -35,12 +35,22 @@ theme:
     - search.suggest
     - search.highlight
   palette:
-    scheme: default
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Перейти на тёмную сторону
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Перейти на светлую сторону
     primary: deep purple
     accent: deep purple
 
 # Plugins
 plugins:
+  - git-revision-date
   - search:
       lang: ru
 
@@ -59,10 +69,9 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - tables
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
