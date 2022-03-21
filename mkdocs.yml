@@ -4,9 +4,6 @@ site_url: https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-
 site_author: Pavskii Artem
 
 # Repository
-repo_name: stewards-a-book-test
-repo_url: https://github.com/
-edit_uri: edit/master/docs
 docs_dir: docs
 
 # Navigation
@@ -21,9 +18,6 @@ nav:
 # Theme
 theme:
   name: material
-#   font:
-#     text: IBM Plex Sans
-#     code: IBM Plex Mono
   language: ru
   font:
     text: Roboto
@@ -50,8 +44,12 @@ plugins:
   - search:
       lang: ru
 
+# Extra
+extra:
+  generator: false
+
 # Customization
-# TBD
+copyright: 2022 &copy; Блок А - ФК Зенит
 
 # Extensions
 markdown_extensions:
