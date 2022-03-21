@@ -9,7 +9,7 @@ docs_dir: docs
 # Theme
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: overrides
   language: ru
   font:
     text: Roboto
