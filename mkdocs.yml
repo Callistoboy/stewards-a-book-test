@@ -6,15 +6,6 @@ site_author: Pavskii Artem
 # Repository
 docs_dir: docs
 
-# Navigation
-nav:
-  - Welcome:
-    - Overview: README.md 
-  - Steps:
-    - 1 MkDocs installation on Mac: steps/1-MkDocs-installation-on-Mac.md 
-    - 2 Verify your documentation and build the pages: steps/2-Verify-your-documentation-and-build-the-pages.md
-    - 3 Setup the integration to your GitHub project: steps/3-Setup-the-integration-to-your-GitHub-project.md
-
 # Theme
 theme:
   name: material
@@ -96,3 +87,33 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+# Navigation
+nav:
+  - Главная: index.html
+  - Правила:
+    - Дресс-код: publishing-your-site.md
+    - Кодекс стюарда: customization.md
+  - Общая информация:
+    - О блоке: getting-started.md
+    - Менеджмент: creating-your-site.md
+    - Юридическая справка: browser-support.md
+  - Приложение:
+    - Авторизация: setup/changing-the-colors.md
+    - Сканирование билетов: setup/changing-the-fonts.md
+    - Ошибки: errors.md
+  - Инструкции:
+    - reference/index.md
+    - Эвакуация чаши: eva.md
+    - Бесхозный предмет: evva2.md
+  - Обратная связь:
+    - insiders/index.md
+    - Отзывы:
+      - Installation: insiders/getting-started.md
+      - Changelog: insiders/changelog.md
+  - Информационные сервисы:
+    - blog/index.md
+    - 2021:
+      - blog/2021/the-past-present-and-future.md
+      - blog/2021/excluding-content-from-search.md
+      - blog/2021/search-better-faster-smaller.md
