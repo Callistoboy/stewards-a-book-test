@@ -6,8 +6,8 @@ site_author: Thomas Südbröcker
 # Repository
 repo_name: How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
 repo_url: https://github.com/thomassuedbroecker/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
-edit_uri: edit/master/documentation
-docs_dir: documentation
+edit_uri: edit/master/docs
+docs_dir: docs
 
 # Navigation
 nav:
