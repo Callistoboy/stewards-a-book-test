@@ -95,7 +95,7 @@ nav:
   - Главная: index.md
   - Правила:
     - Дресс-код: rules/dress-code.md
-    - Кодекс стюарда: customization.md
+    - Кодекс стюарда: rules/code.md
   - Общая информация:
     - О блоке: getting-started.md
     - Менеджмент: creating-your-site.md
