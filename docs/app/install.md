@@ -569,4 +569,4 @@ html .md-typeset :is(.admonition, details) > :last-child {
 </style>
     
     
-<p class="annotate">Lorem ipsum dolor sit amet, <aside class="md-annotation" tabindex="0" style="--md-tooltip-x: 607.5px; --md-tooltip-y: 1133.5px;"><a class="md-annotation__index" tabindex="-1"><span data-md-annotation-id="1"></span></a></aside> consectetur adipiscing elit.</p>
+<p class="annotate">Lorem ipsum dolor sit amet, <aside class="md-annotation" tabindex="0" style="--md-tooltip-x: 607.5px; --md-tooltip-y: 1133.5px;"><div class="md-tooltip"><div class="md-tooltip__inner md-typeset"><img alt="🙋‍♂️" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:"> I'm an annotation! I can contain <code>code</code>, <strong>formatted text</strong>, images, ... basically anything that can be written in Markdown.</div></div><a class="md-annotation__index" tabindex="-1"><span data-md-annotation-id="1"></span></a></aside> consectetur adipiscing elit.</p>
