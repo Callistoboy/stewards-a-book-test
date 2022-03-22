@@ -12,13 +12,13 @@ hide:
 
     | iOS |
     | :-------------: |
-    | ![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="30" } <br> [Скачать :material-download-box:](https://apps.apple.com/ru/app/stewardapp/id1591816993){ .md-button .md-button--primary } |
+    | ![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="100" } <br> [Скачать :material-download-box:](https://apps.apple.com/ru/app/stewardapp/id1591816993){ .md-button .md-button--primary } |
 
 === "Android"
 
     | Android |
     | :-------------: |
-    | ![Android StewardApp](../../assets/images/qr-code-android.svg){ width="30" } <br> [Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button } |
+    | ![Android StewardApp](../../assets/images/qr-code-android.svg){ width="100" } <br> [Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button } |
 
 Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 { .annotate }
