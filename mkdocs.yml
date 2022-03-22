@@ -96,14 +96,15 @@ nav:
   - Правила:
     - Дресс-код: rules/dress-code.md
     - Кодекс стюарда: rules/code.md
+  - Приложение:
+    - app/install.md
+    - Авторизация: app/login.md
+    - Сканирование билетов: app/tickets.md
+    - Ошибки: app/errors.md
   - Общая информация:
     - О блоке: getting-started.md
     - Менеджмент: creating-your-site.md
     - Юридическая справка: browser-support.md
-  - Приложение:
-    - Авторизация: setup/changing-the-colors.md
-    - Сканирование билетов: setup/changing-the-fonts.md
-    - Ошибки: errors.md
   - Инструкции:
     - reference/index.md
     - Эвакуация чаши: eva.md
