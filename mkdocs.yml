@@ -94,7 +94,6 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Главная: index.md
   - Правила:
     - Дресс-код: articles/rules/dress-code.md
     - Кодекс стюарда: articles/rules/code.md
