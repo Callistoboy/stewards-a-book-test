@@ -1,9 +1,8 @@
-name: ci
+name: Deploy Steward Docs
 on:
   push:
     branches:
       - main
-      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
