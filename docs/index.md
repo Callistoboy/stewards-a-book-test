@@ -1,3 +1,3 @@
 ---
-title: Material for MkDocs
+template: homepage.md
 ---
