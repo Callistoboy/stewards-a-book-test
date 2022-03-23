@@ -111,10 +111,8 @@ nav:
     - Эвакуация чаши: eva.md
     - Бесхозный предмет: evva2.md
   - Обратная связь:
-    - insiders/index.md
-    - Отзывы:
-      - Installation: insiders/getting-started.md
-      - Changelog: insiders/changelog.md
+    - articles/feedback/about.md
+    - Отзывы: articles/feedback/reviews.md
   - Информационные сервисы:
     - blog/index.md
     - 2021:
