@@ -13,7 +13,7 @@ extra_css:
 # Theme
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: 'custom/'
   language: ru
   font:
     text: Roboto
