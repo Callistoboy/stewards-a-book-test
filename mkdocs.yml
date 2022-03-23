@@ -93,13 +93,13 @@ markdown_extensions:
 nav:
   - Главная: index.md
   - Правила:
-    - Дресс-код: rules/dress-code.md
-    - Кодекс стюарда: rules/code.md
+    - Дресс-код: articles/rules/dress-code.md
+    - Кодекс стюарда: articles/rules/code.md
   - Приложение:
-    - app/install.md
-    - Авторизация: app/login.md
-    - Сканирование билетов: app/tickets.md
-    - Ошибки: app/errors.md
+    - articles/app/install.md
+    - Авторизация: articles/app/login.md
+    - Сканирование билетов: articles/app/tickets.md
+    - Ошибки: articles/app/errors.md
   - Общая информация:
     - О блоке: getting-started.md
     - Менеджмент: creating-your-site.md
