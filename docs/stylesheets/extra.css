@@ -1,1 +1,102 @@
+.canvas-container {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 72px;
+    bottom: 0px;
+    z-index: -1;
+}
 
+#waves-video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    background-color: #000000;
+}
+
+.home-content {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.home-content .contents {
+    position: relative;
+}
+
+.home-content-left {
+    padding: 15rem 0 12rem 40px;
+    position: relative;
+    width: 50%;
+}
+
+.home-content-left h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 2.4rem;
+}
+
+.home-content-left h1 {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 5.2rem;
+    letter-spacing: -.05rem;
+    line-height: 1.269;
+    color: #1e1f20;
+    margin-bottom: 9rem;
+}
+
+.home-content-left .button.stroke {
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.8);
+    margin: 4rem 0rem 0rem;
+    padding: 0 2.2rem;
+    min-width: 188px;
+}
+
+.home-content-left .button.stroke span[class*="icon"] {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.home-content-left .button.stroke:hover,
+.home-content-left .button.stroke:focus {
+    background-color: white !important;
+    color: #000000 !important;
+}
+
+.home-image-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 21rem;
+    z-index: 500;
+    width: 50%;
+    text-align: right;
+}
+
+.home-image-right img {
+    vertical-align: bottom;
+    width: 75%;
+}
