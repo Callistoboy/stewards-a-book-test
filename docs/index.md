@@ -1,4 +1,4 @@
 ---
-template: home.html
+template: homepage.html
 title: Material for MkDocs
 ---
