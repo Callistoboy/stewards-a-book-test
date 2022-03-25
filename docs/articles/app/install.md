@@ -10,10 +10,8 @@ hide:
 
 === "iOS"
 
-    ![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="200" } <br>
-    [Скачать :material-download-box:](https://apps.apple.com/ru/app/stewardapp/id1591816993){ .md-button .md-button--primary }
+    ![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="200" align=left } [Скачать :material-download-box:](https://apps.apple.com/ru/app/stewardapp/id1591816993){ .md-button .md-button--primary }
 
 === "Android"
 
-    ![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" } <br>
-    [Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button }
+    ![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" align=left } [Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button }
