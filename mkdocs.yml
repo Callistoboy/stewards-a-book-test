@@ -100,19 +100,20 @@ nav:
   - Правила:
     - Дресс-код: articles/rules/dress-code.md
     - Кодекс стюарда: articles/rules/code.md
-    - COVID-19: articles/rules/covid.md
-  - Приложение:
-    - articles/app/install.md
-    - Авторизация: articles/app/login.md
-    - Сканирование билетов: articles/app/tickets.md
-    - Ошибки: articles/app/errors.md
+    - Санитарные нормы: articles/rules/covid.md
+  - Инструкции:
+    - Приложение:
+      - articles/app/install.md
+      - Авторизация: articles/app/login.md
+      - Сканирование билетов: articles/app/tickets.md
+      - Возможные ошибки: articles/app/errors.md
+    - Эвакуация чаши: articles/manuals/evacuation.md
+    - Бесхозный предмет: articles/manuals/ownerless.md
   - Общая информация:
     - О блоке: articles/basic/block.md
     - Менеджмент: articles/basic/management.md
-    - Юридическая справка: articles/basic/laws.md
-  - Инструкции:
-    - Эвакуация чаши: articles/manuals/evacuation.md
-    - Бесхозный предмет: articles/manuals/ownerless.md
+    - Документы стюарда: articles/basic/docs.md
+    - Юридические документы: articles/basic/laws.md
   - Cервисы:
     - Обратная связь:
       - articles/feedback/about.md
