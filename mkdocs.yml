@@ -36,14 +36,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep purple
-      accent: orange
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Нокс!
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
-      accent: blue
+      accent: deep purple
       toggle:
         icon: material/toggle-switch-off-outline
         name: Люмус!
