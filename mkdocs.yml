@@ -1,6 +1,6 @@
 # Project information
-site_name: Блок А - ФК Зенит
-site_description: Единое информационное окно для стюардоа блока А стадиона Газпром Арена
+site_name: Портал стюардов блока А
+site_description: Единое информационное пространство для стюардов блока А стадиона Газпром Арена
 site_url: https://callistoboy.github.io/stewards-a-book
 site_author: Pavskii Artem
 
@@ -53,6 +53,7 @@ plugins:
   - git-revision-date
   - search:
       lang: ru
+      lang: en
 
 # Extra
 extra:
@@ -100,7 +101,9 @@ nav:
   - Правила:
     - Дресс-код: articles/rules/dress-code.md
     - Кодекс стюарда: articles/rules/code.md
-    - Санитарные нормы: articles/rules/covid.md
+    - Санитарные правила: articles/rules/covid.md
+    - Права и обязанности: articles/rules/rights.md
+    - Запрещенные знаки и символы: articles/rules/prohibited_symbols.md
   - Инструкции:
     - Приложение:
       - articles/app/install.md
@@ -111,12 +114,7 @@ nav:
     - Бесхозный предмет: articles/manuals/ownerless.md
   - Общая информация:
     - О блоке: articles/basic/block.md
-    - Менеджмент: articles/basic/management.md
+    - Руководство: articles/basic/management.md
     - Документы стюарда: articles/basic/docs.md
-    - Юридические документы: articles/basic/laws.md
-  - Cервисы:
-    - Обратная связь:
-      - articles/feedback/about.md
-      - Отзывы: articles/feedback/reviews.md
-    - Получение автопропуска: test
-    - Заказ кадровых справок: https://docs.google.com/forms/d/e/1FAIpQLSdHMvDJ93RSJU5o-UREQv6CAkctmM9l63a9rZW-peNAY7zg7w/viewform
+    - Нормативно-правовые документы: articles/basic/laws.md
+  - Cервисы: articles/services.md
