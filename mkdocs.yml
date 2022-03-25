@@ -1,7 +1,7 @@
 # Project information
 site_name: Блок А - ФК Зенит
 site_description: Единое информационное окно для стюардоа блока А стадиона Газпром Арена
-site_url: https://callistoboy.github.io/stewards-a-book-test
+site_url: https://callistoboy.github.io/stewards-a-book
 site_author: Pavskii Artem
 
 # Repository
@@ -43,7 +43,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
-      accent: deep purple
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Люмус!
