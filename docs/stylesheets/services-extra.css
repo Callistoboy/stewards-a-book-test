@@ -485,3 +485,14 @@
     margin-left: 10px;
   }
 }
+
+.u-container-layout:hover {
+    background-color: #7E56C2;
+}
+
+.u-container-layout:hover .u-text {
+    color: white !important;
+}
+
+
+
