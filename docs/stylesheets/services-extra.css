@@ -57,11 +57,11 @@
   margin: 64px auto 0 30px;
 }
 
-.u-section-1 .u-shape-3 {
-  width: 121px;
-  height: 36px;
-  margin: -68px 59px 0 auto;
+.u-container-layout:hover .u-section-1 .u-shape-3 {
+  color: white !important;
 }
+
+.u-section-1 .u-shape-3
 
 .u-section-1 .u-list-item-2 {
   box-shadow: 0 0px 11px 1px rgba(128,128,128,0.3);
