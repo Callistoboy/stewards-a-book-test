@@ -487,7 +487,7 @@
 }
 
 .u-container-layout:hover {
-    background-color: var(--md-primary-fg-color);;
+    background-color: var(--md-primary-fg-color);
 }
 
 .u-container-layout:hover .u-text {
