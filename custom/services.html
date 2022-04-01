@@ -1,5 +1,8 @@
 {% extends "base.html" %}
-
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'stylesheets/services.css' | url }}">
+  <link rel="stylesheet" href="{{ 'stylesheets/services-extra.css' | url }}">
+{% endblock %}
 {% block content %}
 <h1 style='padding-bottom: 2rem;'>Информационные сервисы</h1>
 <section class="u-align-center u-clearfix u-section-1" id="carousel_e237">
