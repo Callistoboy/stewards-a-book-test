@@ -120,4 +120,7 @@ nav:
     - Руководство: articles/basic/management.md
     - Документы стюарда: articles/basic/docs.md
     - Нормативно-правовые документы: articles/basic/laws.md
-  - Cервисы: articles/services.md
+  - Cервисы: 
+    - articles/services.md
+    - Обратная связь: articles/feedback/about.md
+    - Отзывы: articles/feedback/reviews.md
