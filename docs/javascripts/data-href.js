@@ -47,7 +47,8 @@ sethrefs = function() {
                     }
 
                 };
-
+            
+            console.log(ele);
             addevent(ele, 'click', link);
 
         }
