@@ -8,18 +8,12 @@
 <section class="u-align-center u-clearfix u-section-1">
       <div class="u-clearfix u-sheet u-sheet-1">
         <span class="u-file-icon u-icon u-text-custom-color-1 u-icon-1">
-          {% if config.theme.palette.media == 'light' %}
-             <img src="{{ '../../assets/images/stars_light.png' | url }}" alt="">
-           {% else %}
-             <img src="{{ '../../assets/images/stars_dark.png' | url }}" alt="">
-           {% endif %}
+             <img src="{{ '../../assets/images/stars_light.png#only-light' | url }}" alt="">
+             <img src="{{ '../../assets/images/stars_dark.png#only-dark' | url }}" alt="">
         </span>
         <span class="u-file-icon u-icon u-text-custom-color-1 u-icon-2">
-          {% if config.theme.palette.media == 'dark' %}
-           <img src="{{ '../../assets/images/ball_light.png' | url }}" alt="">
-           {% else %}
-           <img src="{{ '../../assets/images/ball_dark.png' | url }}" alt="">
-           {% endif %}
+           <img src="{{ '../../assets/images/ball_light.png#only-light' | url }}" alt="">
+           <img src="{{ '../../assets/images/ball_dark.png#only-dark' | url }}" alt="">
         </span>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
@@ -27,7 +21,7 @@
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <div class="u-custom-item u-opacity u-opacity-60 u-palette-2-base u-shape u-shape-circle u-shape-1"></div><span class="u-file-icon u-icon u-icon-3"><img src="{{ '../../assets/images/feedback.png' | url }}" alt=""></span>
                 <h2 class="u-text u-text-1">Обратная связь</h1>
-                <p class="u-custom-item u-text u-text-black u-text-2">Сервис сбора обратной связи на блоке {{ config.theme.palette.media }} {{ config.theme.palette }}</p>
+                <p class="u-custom-item u-text u-text-black u-text-2">Сервис сбора обратной связи на блоке</p>
               </div>
             </div>
             <div class="u-align-left u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1" data-href="https://nicepage.com" data-target="_blank">
