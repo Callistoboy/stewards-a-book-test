@@ -60,18 +60,13 @@
 }
 </style>
 
-<div class="review-block">
-  <div class="review-content">
-    <div class="review-content-text" style="font-size: 1em;">Проходила стажировку на блоке А(А-медиа), все очень понравилось, ребята в команде дружелюбные, поддерживали и помогали во время матча(моя напарница на все вопросы отвечала максимально развёрнуто, показывала на своём примере, как нужно себя вести и что нужно делать в той или иной ситуации). Старшие стюарды все доступно объяснили, показали, рассказали, создали комфортную обстановку. Совсем не было страха о чем-то спросить, на все вопросы отвечали и даже больше. Впечатления от стажировки самые приятные. Желание работать в этом коллективе 100%</div>
-    <div class="review-content-emotion"></div>
-  </div>
-  <div class="review-date">
-    <span class="review-date-content">28.02.2022</span></div></div>
-    
-<div class="review-block">
-  <div class="review-content">
-    <div class="review-content-text" style="font-size: 2.6em;">Все нравится, Маша супер!)</div>
-    <div class="review-content-emotion"></div>
-  </div>
-  <div class="review-date">
-    <span class="review-date-content">24.10.2021</span></div></div>
+{% set reviews = redis_get('a_feedback_reviews') %}
+{% for item in reviews %}
+  <div class="review-block">
+    <div class="review-content">
+      <div class="review-content-text" style="{% if len(item['comment']) <= 30 %} font-size: 2.6em; {% else if len(item['comment']) > 30 and len(item['comment']) <= 60 %} font-size: 1.9em; {% else if len(item['comment']) > 60 and len(item['comment']) <= 120 %} font-size: 1.4em; {% else if len(item['comment']) > 120 %} font-size: 1em; {% endif %}">{{ item['comment'] }}</div>
+      <div class="review-content-emotion"></div>
+    </div>
+    <div class="review-date">
+      <span class="review-date-content">{{ item['date'] }}</span></div></div>
+{% endfor %}
