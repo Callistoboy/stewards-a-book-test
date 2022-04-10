@@ -64,7 +64,7 @@
 {% for item in reviews %}
   <div class="review-block">
     <div class="review-content">
-      <div class="review-content-text" style="{% if len(item['comment']) <= 30 %} font-size: 2.6em; {% else if len(item['comment']) > 30 and len(item['comment']) <= 60 %} font-size: 1.9em; {% else if len(item['comment']) > 60 and len(item['comment']) <= 120 %} font-size: 1.4em; {% else if len(item['comment']) > 120 %} font-size: 1em; {% endif %}">{{ item['comment'] }}</div>
+      <div class="review-content-text" style="{% if len(item['comment']) <= 30 %} font-size: 2.6em; {% elif len(item['comment']) > 30 and len(item['comment']) <= 60 %} font-size: 1.9em; {% elif len(item['comment']) > 60 and len(item['comment']) <= 120 %} font-size: 1.4em; {% else %} font-size: 1em; {% endif %}">{{ item['comment'] }}</div>
       <div class="review-content-emotion"></div>
     </div>
     <div class="review-date">
