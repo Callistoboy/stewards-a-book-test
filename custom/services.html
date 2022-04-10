@@ -8,14 +8,14 @@
 <section class="u-align-center u-clearfix u-section-1">
       <div class="u-clearfix u-sheet u-sheet-1">
         <span class="u-file-icon u-icon u-text-custom-color-1 u-icon-1">
-          {% if config.theme.palette.scheme == 'default' %}
+          {% if config.theme.palette.media == 'light' %}
              <img src="{{ '../../assets/images/stars_light.png' | url }}" alt="">
            {% else %}
              <img src="{{ '../../assets/images/stars_dark.png' | url }}" alt="">
            {% endif %}
         </span>
         <span class="u-file-icon u-icon u-text-custom-color-1 u-icon-2">
-          {% if config.theme.palette.scheme == 'default' %}
+          {% if config.theme.palette.media == 'dark' %}
            <img src="{{ '../../assets/images/ball_light.png' | url }}" alt="">
            {% else %}
            <img src="{{ '../../assets/images/ball_dark.png' | url }}" alt="">
