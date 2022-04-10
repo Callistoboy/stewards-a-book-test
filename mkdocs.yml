@@ -60,6 +60,7 @@ plugins:
 # Extra
 extra:
   generator: false
+  test_var: $GITHUB_JOB
 
 # Customization
 copyright: 2022 &copy; Блок А - ФК Зенит
