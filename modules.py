@@ -1,41 +1,9 @@
-"""
-Basic example of a Mkdocs-macros module
-"""
-
-import math
+import redis
+import json
 
 def define_env(env):
-    """
-    This is the hook for defining variables, macros and filters
-
-    - variables: the dictionary that contains the environment variables
-    - macro: a decorator function, to declare a macro.
-    - filter: a function with one of more arguments,
-        used to perform a transformation
-    """
-
-    # add to the dictionary of variables available to markdown pages:
-    env.variables['baz'] = "John Doe"
-
-    # NOTE: you may also treat env.variables as a namespace,
-    #       with the dot notation:
-    env.variables.baz = "John Doe"
-
+    
     @env.macro
-    def bar(x):
-        return (2.3 * x) + 7
-
-    # If you wish, you can  declare a macro with a different name:
-    def f(x):
-        return x * x
-    env.macro(f, 'barbaz')
-
-    # or to export some predefined function
-    env.macro(math.floor) # will be exported as 'floor'
-
-
-    # create a jinja2 filter
-    @env.filter
-    def reverse(x):
-        "Reverse a string (and uppercase)"
-        return x.upper()[::-1]
+    def redis_get(key):
+        r = redis.from_url('redis://:pd3c25ab01ee13171d13997a7c7bd6a1d74834d8dd56fc432467259aaf4dfb257@ec2-34-252-236-53.eu-west-1.compute.amazonaws.com:706')
+        return json.loads(r.get(key))
