@@ -51,7 +51,8 @@ theme:
 # Plugins
 plugins:
   - git-revision-date
-  - macros
+  - macros:
+      module_name: modules
   - search:
       lang: ru
       lang: en
