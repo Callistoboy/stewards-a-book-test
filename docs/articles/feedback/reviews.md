@@ -35,7 +35,7 @@
   min-width: 62px;
   min-height: 62px;
   margin-left: 16px;
-  background-image: url("{{ '../../assets/images/smile-positive.svg' | url }}");
+  background-image: url("{{ '../../assets/images/smile-positive.svg' }}");
   background-position-x: center;
   background-position-y: center;
   background-size: 62px 62px;
