@@ -7,12 +7,12 @@ sethrefs = function() {
 
         console.log(datahrefs);
 
-        while (dhcount-- > 0) {
+        for (i = 0, dhcount, i++) {
 
-            var ele = datahrefs[dhcount],
+            var ele = datahrefs[i],
                 addevent = function(ele, event, func) {
 
-                    if (ele.addEventListener) ele.addEventListener(event, link, false);
+                    if (ele.addEventListener) ele.addEventListener(event, link, false); // event == 'click'
                     else ele.attachEvent('on' + event, link);
 
                 },
@@ -21,28 +21,28 @@ sethrefs = function() {
                     var target = event.target,
                         url = this.getAttribute('data-href');
 
-                    if (!target.href) {
+//                     if (!target.href) {
 
-                        var newevent = document.createEvent("MouseEvents");
+//                         var newevent = document.createEvent("MouseEvents");
 
-                        if (newevent.initMouseEvent) {
+//                         if (newevent.initMouseEvent) {
 
-                            var newlink = document.createElement("a");
+//                             var newlink = document.createElement("a");
 
-                            newlink.setAttribute('href', url);
-                            newlink.innerHTML = 'link event';
+//                             newlink.setAttribute('href', url);
+//                             newlink.innerHTML = 'link event';
 
-                            newevent.initMouseEvent(event.type, true, false, window, event.detail, event.screenX, event.screenY, event.clientX, event.clientY, event.ctrlKey, event.altKey, event.shiftKey, event.metaKey, event.button, null);
+//                             newevent.initMouseEvent(event.type, true, false, window, event.detail, event.screenX, event.screenY, event.clientX, event.clientY, event.ctrlKey, event.altKey, event.shiftKey, event.metaKey, event.button, null);
 
-                            newlink.dispatchEvent(newevent);
+//                             newlink.dispatchEvent(newevent);
 
-                        } else {
+//                         } else {
 
                             var meta = (event.metaKey) ? '_self' : '_blank';
 
                             window.open(url, meta);
 
-                        }
+//                         }
 
                     }
 
