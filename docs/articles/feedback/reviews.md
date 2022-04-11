@@ -61,7 +61,7 @@
 </style>
 
 {% set reviews = redis_get('a_feedback_reviews') %}
-{% for item in reviews %}
+{% for item in reviews|reverse %}
   <div class="review-block">
     <div class="review-content">
       <div class="review-content-text" style="{% if item['comment']|length <= 30 %}font-size: 2.6em;{% elif item['comment']|length > 30 and item['comment']|length <= 60 %}font-size: 1.9em;{% elif item['comment']|length > 60 and item['comment']|length <= 120 %}font-size: 1.4em;{% else %}font-size: 1em;{% endif %}">{{ item['comment'] }}</div>
