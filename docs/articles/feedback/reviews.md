@@ -35,7 +35,7 @@
   min-width: 62px;
   min-height: 62px;
   margin-left: 16px;
-  background-image: url("{{ '../../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
   background-position-x: center;
   background-position-y: center;
   background-size: 62px 62px;
@@ -70,13 +70,3 @@
     <div class="review-date">
       <span class="review-date-content">{{ item['date'] }}</span></div></div>
 {% endfor %}
-
-
-<div class="review-block">
-  <div class="review-content">
-    <div class="review-content-text" style=" font-size: 2.6em; ">Все нравится, Маша супер!)</div>
-    <div class="review-content-emotion"></div>
-  </div>
-  <div class="review-date">
-    <span class="review-date-content">24.10.2021</span></div></div>
-
