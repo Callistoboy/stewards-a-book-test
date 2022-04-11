@@ -67,10 +67,20 @@
   {% for item in reviews %}
     <div class="review-block">
       <div class="review-content">
-        <div class="review-content-text" style="{% if item['comment']|length <= 30 %} font-size: 2.6em; {% elif item['comment']|length > 30 and item['comment']|length <= 60 %} font-size: 1.9em; {% elif item['comment']|length > 60 and item['comment']|length <= 120 %} font-size: 1.4em; {% else %} font-size: 1em; {% endif %}">{{ item['comment'] }}</div>
+        <div class="review-content-text" style="{% if item['comment']|length <= 30 %}font-size: 2.6em;{% elif item['comment']|length > 30 and item['comment']|length <= 60 %}font-size: 1.9em;{% elif item['comment']|length > 60 and item['comment']|length <= 120 %}font-size: 1.4em;{% else %}font-size: 1em;{% endif %}">{{ item['comment'] }}</div>
         <div class="review-content-emotion"></div>
       </div>
       <div class="review-date">
         <span class="review-date-content">{{ item['date'] }}</span></div></div>
   {% endfor %}
 {% endif %}
+
+
+<div class="review-block">
+  <div class="review-content">
+    <div class="review-content-text" style=" font-size: 2.6em; ">Все нравится, Маша супер!)</div>
+    <div class="review-content-emotion"></div>
+  </div>
+  <div class="review-date">
+    <span class="review-date-content">24.10.2021</span></div></div>
+
