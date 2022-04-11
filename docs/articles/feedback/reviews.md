@@ -61,19 +61,15 @@
 </style>
 
 {% set reviews = redis_get('a_feedback_reviews') %}
-{% if reviews == 504 %}
-  Ошибка сервера
-{% else %}
-  {% for item in reviews %}
-    <div class="review-block">
-      <div class="review-content">
-        <div class="review-content-text" style="{% if item['comment']|length <= 30 %}font-size: 2.6em;{% elif item['comment']|length > 30 and item['comment']|length <= 60 %}font-size: 1.9em;{% elif item['comment']|length > 60 and item['comment']|length <= 120 %}font-size: 1.4em;{% else %}font-size: 1em;{% endif %}">{{ item['comment'] }}</div>
-        <div class="review-content-emotion"></div>
-      </div>
-      <div class="review-date">
-        <span class="review-date-content">{{ item['date'] }}</span></div></div>
-  {% endfor %}
-{% endif %}
+{% for item in reviews %}
+  <div class="review-block">
+    <div class="review-content">
+      <div class="review-content-text" style="{% if item['comment']|length <= 30 %}font-size: 2.6em;{% elif item['comment']|length > 30 and item['comment']|length <= 60 %}font-size: 1.9em;{% elif item['comment']|length > 60 and item['comment']|length <= 120 %}font-size: 1.4em;{% else %}font-size: 1em;{% endif %}">{{ item['comment'] }}</div>
+      <div class="review-content-emotion"></div>
+    </div>
+    <div class="review-date">
+      <span class="review-date-content">{{ item['date'] }}</span></div></div>
+{% endfor %}
 
 
 <div class="review-block">
