@@ -50,7 +50,6 @@ theme:
 
 # Plugins
 plugins:
-  - git-revision-date-localized
   - macros:
       module_name: modules
   - search:
