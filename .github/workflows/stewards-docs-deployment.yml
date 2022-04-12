@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: pip  nstall mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-macros-plugin
       - run: pip install redis
       - run: mkdocs gh-deploy --force
