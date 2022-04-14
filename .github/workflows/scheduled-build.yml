@@ -1,11 +1,11 @@
-name: Site CRON Update
+name: GitHub Pages CRON Update
 
 on:
   schedule:
     - cron: '*/60 * * * *'
 jobs:
-  deploy:
-    name: Trigger Site Rebuild
+  github-pages-update:
+    name: Trigger Pages Updage
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
