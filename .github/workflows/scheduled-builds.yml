@@ -1,0 +1,19 @@
+name: Site CRON Update
+
+on:
+  schedule:
+    - cron: '0 * * * * *'
+jobs:
+  build:
+    name: Trigger Site Rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-macros-plugin
+      - run: pip install redis
+      - run: mkdocs gh-deploy --force
