@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '*/60 * * * *'
 jobs:
-  build:
+  deploy:
     name: Trigger Site Rebuild
     runs-on: ubuntu-latest
     steps:
