@@ -18,6 +18,10 @@
     background-color: var(--color-canvas-default, var(--color-bg-primary));
 }
 
+.question-font-semibold {
+    font-weight: 700;
+}
+
 @-webkit-keyframes heart {
     0%, 40%, 80%, to {
         transform:scale(1)
