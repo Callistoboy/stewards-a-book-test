@@ -2472,30 +2472,6 @@ a:hover {
                     </p>
                     <div class="my-2 border-t color-border-primary"></div>
                     <div class="m-2">
-                      <button aria-label="Add +1 reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👍</span>
-                      </button>
-                      <button aria-label="Add -1 reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👎</span>
-                      </button>
-                      <button aria-label="Add Laugh reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">😆</span>
-                      </button>
-                      <button aria-label="Add Hooray reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">🎉</span>
-                      </button>
-                      <button aria-label="Add Confused reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">😕</span>
-                      </button>
-                      <button aria-label="Add Love reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">❤️</span>
-                      </button>
-                      <button aria-label="Add Rocket reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">🚀</span>
-                      </button>
-                      <button aria-label="Add Eyes reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👀</span>
-                      </button>
                     </div>
                   </div>
                 </details>
@@ -2507,80 +2483,6 @@ a:hover {
             </div>
             <div class="gsc-reply-reactions">
               <div class="gsc-direct-reaction-buttons"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="gsc-reply">
-        <div class="gsc-tl-line"></div>
-        <div class="flex py-2 pl-4 ">
-          <div class="gsc-reply-author-avatar">
-            <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/alanlivio" class="flex items-center">
-              <img class="rounded-full" src="https://avatars.githubusercontent.com/u/604808?v=4" width="30" height="30" alt="@alanlivio">
-            </a>
-          </div>
-          <div class="w-full min-w-0 ml-2">
-            <div class="gsc-reply-header">
-              <div class="gsc-reply-author">
-                <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/alanlivio" class="flex items-center">
-                  <span class="font-semibold link-primary">alanlivio</span>
-                </a>
-                <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/squidfunk/mkdocs-material/discussions/3488#discussioncomment-2307625" class="ml-2 link-secondary">
-                  <time class="whitespace-nowrap" title="Mar 7, 2022, 1:23 PM GMT+3" datetime="2022-03-07T10:23:38Z">Mar 7</time>
-                </a>
-              </div>
-              <div class="flex pr-4">
-                <details class="gsc-reactions-menu">
-                  <summary aria-label="Add reactions" class="link-secondary gsc-reactions-button gsc-social-reaction-summary-item popover-only">
-                    <svg aria-hidden="true" role="img" class="octicon octicon-smiley" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom; overflow: visible;">
-                      <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"></path>
-                    </svg>
-                  </summary>
-                  <div class="color-border-primary color-text-secondary color-bg-overlay gsc-reactions-popover bottom  right">
-                    <p class="m-2">
-                      <a href="/api/oauth/authorize?redirect_uri=https%3A%2F%2Fsquidfunk.github.io%2Fmkdocs-material%2Fblog%2F2021%2Fthe-past-present-and-future%2F" class="color-text-link" target="_top">Sign in</a> to add your reaction.
-                    </p>
-                    <div class="my-2 border-t color-border-primary"></div>
-                    <div class="m-2">
-                      <button aria-label="Add +1 reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👍</span>
-                      </button>
-                      <button aria-label="Add -1 reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👎</span>
-                      </button>
-                      <button aria-label="Add Laugh reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">😆</span>
-                      </button>
-                      <button aria-label="Add Hooray reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">🎉</span>
-                      </button>
-                      <button aria-label="Add Confused reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">😕</span>
-                      </button>
-                      <button aria-label="Add Love reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">❤️</span>
-                      </button>
-                      <button aria-label="Add Rocket reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">🚀</span>
-                      </button>
-                      <button aria-label="Add Eyes reaction" type="button" class="gsc-emoji-button no-token" disabled="">
-                        <span class="gsc-emoji">👀</span>
-                      </button>
-                    </div>
-                  </div>
-                </details>
-              </div>
-            </div>
-            <div class="markdown gsc-reply-content ">
-              <p dir="auto">Amazing work indeed.</p>
-            </div>
-            <div class="gsc-reply-reactions">
-              <div class="gsc-direct-reaction-buttons">
-                <button class="gsc-direct-reaction-button gsc-social-reaction-summary-item  cursor-not-allowed" disabled="" aria-label="You must be signed in to add reactions." title="You must be signed in to add reactions.">
-                  <span class="gsc-direct-reaction-button-emoji">👍</span>
-                  <span class="gsc-social-reaction-summary-item-count" title="1 person reacted with +1 emoji">1</span>
-                </button>
-              </div>
             </div>
           </div>
         </div>
