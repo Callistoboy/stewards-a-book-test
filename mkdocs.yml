@@ -120,7 +120,7 @@ nav:
     - Документы стюарда: articles/basic/docs.md
     - Нормативно-правовые документы: articles/basic/laws.md
   - Cервисы: 
-    - articles/services.md
+    - https://callistoboy.github.io/stewards-a-book-test/articles/services/
     - Обратная связь: articles/feedback/about.md
     - Отзывы: articles/feedback/reviews.md
   - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
