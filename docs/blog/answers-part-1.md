@@ -9,16 +9,15 @@ search:
 __Блок ответов на вопросы и предложения, которые задаются стюардами через форму обратной связи.__
 
 <aside class="mdx-author" markdown>
-![@squidfunk][@squidfunk avatar]
+![@callistoboy][@callistoboy avatar]
 
-<span>__Martin Donath__ · @squidfunk</span>
+<span>__Павский Артём__ · @callistoboy</span>
 <span>
-:octicons-calendar-24: December 27, 2021 ·
-:octicons-clock-24: 10 min read
+:octicons-calendar-24: Апрель 15, 2022
 </span>
 </aside>
 
-  [@squidfunk avatar]: https://avatars.githubusercontent.com/u/932156
+  [@callistoboy avatar]: https://avatars.githubusercontent.com/u/56426715
 
 ---
 
