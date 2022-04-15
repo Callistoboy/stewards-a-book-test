@@ -124,3 +124,5 @@ nav:
     - Обратная связь: articles/feedback/about.md
     - Отзывы: articles/feedback/reviews.md
   - Блог: blog/index.md
+    - Ответы на вопросы:
+      - Часть 1: blog/answers-part-1.md
