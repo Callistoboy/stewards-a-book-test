@@ -1,13 +1,3 @@
-
-:not(.u-effect-fade) > .u-opacity-60,
-.u-opacity-60:before,
-.u-opacity-60 > .u-container-layout:before {
-  opacity: 0.6;
-}
-
-
-
-
 @media (min-width: 1400px) {
   .u-hidden-xxl {
     display: none !important;
@@ -4449,13 +4439,6 @@
 .u-repeater-item {
   display: flex;
   position: relative;
-}
-
-.u-radius-20,
-.u-radius-20:before,
-.u-radius-20 .u-background-effect,
-.u-radius-20:not(.u-hover-box) > .u-container-layout {
-  border-radius: 20px !important;
 }
 
 
