@@ -19,7 +19,7 @@ __Блок ответов на вопросы и предложения, кот�
 </span>
 </aside>
 
-  [@squidfunk avatar]: https://avatars.githubusercontent.com/u/932156
+  [@callistoboy avatar]: https://avatars.githubusercontent.com/u/56426715
 
 ---
 
