@@ -6,7 +6,12 @@
     min-width: 0;
     padding-left: 25px;
     padding-right: 25px;
-    width: 100%;   
+    width: 100%;
+}
+
+.question-date {
+    margin-left: .5em;
+    color: #57606a;
 }
 
 .question-box .question-color-bg {
