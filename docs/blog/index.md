@@ -4,27 +4,18 @@ search:
   exclude: true
 ---
 
-<style>
-  .md-sidebar--secondary:not([hidden]) {
-    visibility: hidden;
-  }
-</style>
-
 # Блог
 
 ## [Ответы на вопросы // Часть 1]
 
-__2021 was a fantastic year for this project as we shipped many new awesome
-features, saw significant user growth and leveraged GitHub Sponsors to make the
-project sustainable.__
+__Блок ответов на вопросы и предложения, которые задаются стюардами через форму обратной связи.__
 
 <aside class="mdx-author" markdown>
-![@squidfunk][@squidfunk avatar]
+![@callistoboy][@callistoboy avatar]
 
-<span>__Martin Donath__ · @squidfunk</span>
+<span>__Павский Артём__ · @callistoboy</span>
 <span>
-:octicons-calendar-24: December 27, 2021 ·
-:octicons-clock-24: 10 min read
+:octicons-calendar-24: Апрель 15, 2022
 </span>
 </aside>
 
@@ -43,4 +34,4 @@ bring some interesting new capabilities.
 
   [:octicons-arrow-right-24: Читать][Ответы на вопросы // Часть 1]
 
-  [Ответы на вопросы // Часть ]: answers-part-1.md
+  [Ответы на вопросы // Часть 1]: answers-part-1.md
