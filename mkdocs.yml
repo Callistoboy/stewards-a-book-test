@@ -105,8 +105,9 @@ nav:
     - Кодекс стюарда: articles/rules/code.md
     - Санитарные правила: articles/rules/covid.md
     - Правила поведения зрителей: articles/rules/spectators.md
-    - Права и обязанности: articles/rules/rights.md
+    - Права и обязанности стюардов: articles/rules/rights.md
     - Запрещенные знаки и символы: articles/rules/prohibited_symbols.md
+    - Запрещенные предметы: articles/rules/prohibited_items.md
   - Инструкции:
     - Приложение:
       - articles/app/install.md
