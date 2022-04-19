@@ -29,6 +29,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
   palette:
