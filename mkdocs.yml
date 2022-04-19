@@ -100,14 +100,21 @@ markdown_extensions:
 
 # Navigation
 nav:
+  - Общая информация:
+    - О блоке: articles/basic/block.md
+    - Руководство: articles/basic/management.md
+    - Документы стюарда: articles/basic/docs.md
+    - Нормативно-правовые документы: articles/basic/laws.md
   - Правила:
-    - Дресс-код: articles/rules/dress-code.md
-    - Кодекс стюарда: articles/rules/code.md
-    - Санитарные правила: articles/rules/covid.md
-    - Правила поведения зрителей: articles/rules/spectators.md
-    - Права и обязанности стюардов: articles/rules/rights.md
-    - Запрещенные знаки и символы: articles/rules/prohibited_symbols.md
-    - Запрещенные предметы: articles/rules/prohibited_items.md
+    - Для стюардов:
+      - Дресс-код: articles/rules/dress-code.md
+      - Кодекс стюарда: articles/rules/code.md
+      - Санитарные правила: articles/rules/covid.md
+      - Права и обязанности стюардов: articles/rules/rights.md
+    - Для зрителей:
+      - Правила поведения зрителей: articles/rules/spectators.md
+      - Запрещённые предметы: articles/rules/prohibited_items.md
+      - Запрещённые знаки и символы: articles/rules/prohibited_symbols.md
   - Инструкции:
     - Приложение:
       - articles/app/install.md
@@ -116,11 +123,6 @@ nav:
       - Возможные ошибки: articles/app/errors.md
     - Эвакуация чаши: articles/manuals/evacuation.md
     - Бесхозный предмет: articles/manuals/ownerless.md
-  - Общая информация:
-    - О блоке: articles/basic/block.md
-    - Руководство: articles/basic/management.md
-    - Документы стюарда: articles/basic/docs.md
-    - Нормативно-правовые документы: articles/basic/laws.md
   - Cервисы: 
     - articles/services.md
     - Обратная связь: articles/feedback/about.md
