@@ -9,14 +9,14 @@ hide:
 
 Приложение является обязательным для использования всеми стюардами чаши стадиона.
 
-`Ссылки на скачивание`
+## Ссылки на скачивание приложения
 
-:   === "iOS"
+=== "iOS"
 
     <p>![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="200" }</p>
     <p>[Скачать :octicons-download-16:](https://apps.apple.com/ru/app/stewardapp/id1591816993){ .md-button .md-button--primary }</p>
 
-    === "Android"
+=== "Android"
 
-        <p>![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" }</p>
-        <p>[Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button }</p>
+    <p>![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" }</p>
+    <p>[Скачать :material-download-box:](https://play.google.com/store/apps/details?id=ru.infotec.ticketcheck){ .md-button .md-button--primary } [apk :material-android:](#){ .md-button }</p>
