@@ -28,6 +28,7 @@ theme:
     - navigation.instant
     - navigation.expand
     - navigation.tracking
+    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
