@@ -116,14 +116,18 @@ nav:
       - Запрещённые знаки и символы: articles/rules/prohibited_symbols.md
   - Инструкции:
     - Приложение:
-      - articles/app/install.md
+      - Установка приложения: articles/app/install.md
       - Авторизация: articles/app/login.md
       - Сканирование билетов: articles/app/tickets.md
       - Возможные ошибки: articles/app/errors.md
-    - Эвакуация чаши: articles/manuals/evacuation.md
-    - Бесхозный предмет: articles/manuals/ownerless.md
+    - Служебные инструции:
+      - Эвакуация чаши: articles/manuals/evacuation.md
+      - Бесхозный предмет: articles/manuals/ownerless.md
+    - Внутренние инструкции:
+      - Трансферы: articles/manuals/transfers.md
+      - Расторжение договора: articles/manuals/decline.md
   - Cервисы: 
-    - articles/services.md
+    - Сервисы: articles/services.md
     - Обратная связь: articles/feedback/about.md
     - Отзывы: articles/feedback/reviews.md
   - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
