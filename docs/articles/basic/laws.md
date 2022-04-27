@@ -29,13 +29,13 @@
 <div class="result" markdown>
 - [x] [Постановление Правительства Санкт-Петербурга от 13 марта 2020 года № 121](https://docs.cntd.ru/document/564437085)<br><small>
   :octicons-light-bulb-16:
-  **Подсказка:** Подробнее о сантирных мерах можно прочитать [:material-arrow-right: здесь](../../rules/covid/)
+  **Подсказка:** Подробнее о сантирных мерах можно прочитать [:material-arrow-right: здесь](../../rules/covid/)</small>
 </div>
 
 ### Местный уровень
 
 <div class="result" markdown>
-- [x] [Правил поведения зрителей при проведении домашних матчей ФК «Зенит»](https://tickets.fc-zenit.ru/info/behavior_rules/football/)
+- [x] [Правила поведения зрителей при проведении домашних матчей ФК «Зенит»](https://tickets.fc-zenit.ru/info/behavior_rules/football/)
 </div>
   
 ## Ответственность зрителей
