@@ -68,6 +68,8 @@
 }
 </style>
 
+<small>Отзывы автоматически публикуются в течение одного часа</small>
+
 {% set reviews = redis_get('a_feedback_reviews') %}
 {% for item in reviews|reverse %}
   <div class="review-block">
