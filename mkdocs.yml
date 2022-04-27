@@ -6,8 +6,6 @@ site_author: Pavskii Artem
 
 # Repository
 docs_dir: docs
-extra_javascript:
-  - javascripts/extra.js
 extra_css:
   - stylesheets/extra.css
 
