@@ -133,11 +133,13 @@ nav:
       - Расторжение договора: articles/manuals/decline.md
   - Cервисы: 
     - articles/services.md
-    - Обратная связь:
-      - Описание: articles/feedback/about.md
-      - Форма обратной связи: https://forms.yandex.ru/cloud/6171388724395acafe4ec871/
-      - Отзывы: articles/feedback/reviews.md
-      - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
-    - Получение автопропуска: https://docs.google.com/forms/d/e/1FAIpQLScIWIttHdbpCohXr9g0ZqOI7nElieD47Ns4y3pjgBz5wOc7dg/viewform
-    - Заказ кадровых справок: https://docs.google.com/forms/d/e/1FAIpQLSdHMvDJ93RSJU5o-UREQv6CAkctmM9l63a9rZW-peNAY7zg7w/viewform
+    - Сервисы блока:
+      - Обратная связь:
+        - Описание: articles/feedback/about.md
+        - Форма обратной связи: https://forms.yandex.ru/cloud/6171388724395acafe4ec871/
+        - Отзывы: articles/feedback/reviews.md
+        - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
+      - Получение автопропуска: https://docs.google.com/forms/d/e/1FAIpQLScIWIttHdbpCohXr9g0ZqOI7nElieD47Ns4y3pjgBz5wOc7dg/viewform
+    - Сервисы ЦПВП:
+      - Заказ кадровых справок: https://docs.google.com/forms/d/e/1FAIpQLSdHMvDJ93RSJU5o-UREQv6CAkctmM9l63a9rZW-peNAY7zg7w/viewform
   - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
