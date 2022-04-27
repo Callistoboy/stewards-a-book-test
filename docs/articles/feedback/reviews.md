@@ -32,7 +32,6 @@
   min-width: 62px;
   min-height: 62px;
   margin-left: 16px;
-  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
   background-position-x: center;
   background-position-y: center;
   background-size: 62px 62px;
@@ -42,6 +41,18 @@
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
+}
+  
+.review-content-emotion-happy {
+  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
+}
+  
+.review-content-emotion-avg {
+  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
+}
+  
+.review-content-emotion-sad {
+  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
 }
 
 .review-date {
@@ -62,7 +73,7 @@
   <div class="review-block">
     <div class="review-content">
       <div class="review-content-text" style="{% if item['comment']|length <= 30 %}font-size: 2.6em;{% elif item['comment']|length > 30 and item['comment']|length <= 60 %}font-size: 1.9em;{% elif item['comment']|length > 60 and item['comment']|length <= 120 %}font-size: 1.4em;{% else %}font-size: 1em;{% endif %}">{{ item['comment'] }}</div>
-      <div class="review-content-emotion"></div>
+      <div class="review-content-emotion {% if item['mood'] == 'happy' %}review-content-emotion-happy{% elif item['mood'] == 'avg' %}review-content-emotion-avg{% else %}review-content-emotion-sad{% endif %}"></div>
     </div>
     <div class="review-date">
       <span class="review-date-content">{{ item['date'] }}</span></div></div>
