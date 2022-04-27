@@ -131,8 +131,9 @@ nav:
     - Процессы:
       - Внутренние трансферы: articles/manuals/transfers.md
       - Расторжение договора: articles/manuals/decline.md
-  - Cервисы: articles/services.md
-    - Обратная связь: 
+  - Cервисы: 
+    - articles/services.md
+    - Обратная связь:
       - Описание: articles/feedback/about.md
       - Форма обратной связи: https://forms.yandex.ru/cloud/6171388724395acafe4ec871/
       - Отзывы: articles/feedback/reviews.md
