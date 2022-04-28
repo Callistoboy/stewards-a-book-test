@@ -1,46 +1,15 @@
 {% extends "base.html" %}
-{% block styles %}{{ super() }}{% endblock %}
-{% block tabs %}
+{% block scripts %}
   {{ super() }}
-  
-  <style>
-  [data-md-color-primary=deep-purple] {
-    --md-primary-fg-color: hsla(232,15%,21%,1) !important;
-  }
-  [data-md-color-primary=slate] {
-    --md-primary-fg-color: hsla(232,15%,21%,1) !important;
-  }
-  </style>
-  
-  <section class="mdx-container">
-    <main class="md-main" data-md-component="main">
-	    <div class="md-main__inner md-grid">
-		    <h1>Удобный и простой инструмент коммуникации</h1>
-		    <p>Портал стюардов блока А — первый и единственный общественный ресурс для стюардов блока А стадиона "Газпром Арена". Миссия портала - упростить работу стюардов, предоставляя удобные и простые инструменты коммуникации.</p>
-
-		    135 стюардов
-		    Текущее количество человек на блоке
-
-		    6 старших стюардов
-
-		    85 человек
-		    Средняя посещаемость мероприятий
-
-		    Структура портала
-
-		    Основная полезная информация портал разбита на несколько блоков
-
-		    Содержательный блок
-
-		    Общая информация Правила Инструкции
-
-		    Сервисный блок
-
-		    Сервисы Обсуждения
-	    </div>
-	  </main>
-  </section>
 {% endblock %}
-{% block content %}{% endblock %}
+{% block content %}
+<style>
+[data-md-color-primary=deep-purple] {
+--md-primary-fg-color: hsla(232,15%,21%,1) !important;
+}
+[data-md-color-primary=slate] {
+--md-primary-fg-color: hsla(232,15%,21%,1) !important;
+}
+</style>
+{$ endblock %}
 {% block footer %}{% endblock %}
-
