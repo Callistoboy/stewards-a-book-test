@@ -3,11 +3,14 @@
 {% endblock %}
 {% block content %}
 <style>
-[data-md-color-primary=deep-purple] {
---md-primary-fg-color: hsla(232,15%,21%,1) !important;
+.md-header {
+    background-color: hsla(232,15%,21%,1);
+    box-shadow: 0 0 .2rem transparent,0 .2rem .4rem transparent;
+    color: white;
 }
-[data-md-color-primary=slate] {
---md-primary-fg-color: hsla(232,15%,21%,1) !important;
+.md-header {
+    background-color: hsla(232,15%,21%,1);
+    color: white;
 }
 .realistic-marker-highlight{
   position:relative;
@@ -52,6 +55,7 @@ font-weight: 600;
 -webkit-font-smoothing: subpixel-antialiased;
 -moz-osx-font-smoothing: auto;
 line-height: 1.5;
+color: var(--md-primary-fg-color);
 }
 .AboutPageMetric__title {
 font-size: 16px;
