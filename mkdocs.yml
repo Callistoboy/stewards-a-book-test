@@ -114,7 +114,7 @@ nav:
     - Для стюардов:
       - Дресс-код: articles/rules/dress-code.md
       - Кодекс стюарда: articles/rules/code.md
-      - Санитарные правила: articles/rules/covid.md
+#      - Санитарные правила: articles/rules/covid.md
       - Права и обязанности стюардов: articles/rules/rights.md
     - Для зрителей:
       - Правила поведения зрителей: articles/rules/spectators.md
@@ -126,7 +126,7 @@ nav:
       - Авторизация в приложении: articles/app/login.md
       - Сканирование билетов: articles/app/tickets.md
       - Возможные ошибки: articles/app/errors.md
-    - Служебные инструции:
+    - Служебные инструкции:
       - Эвакуация чаши: articles/manuals/evacuation.md
       - Бесхозный предмет: articles/manuals/ownerless.md
     - Процессы:
