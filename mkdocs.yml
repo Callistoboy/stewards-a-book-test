@@ -6,6 +6,7 @@ site_author: Pavskii Artem
 
 # Repository
 docs_dir: docs
+custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
 
@@ -22,6 +23,7 @@ theme:
   icon:
     logo: material/library
   features:
+    - announce.dismiss
     - navigation.tabs
     - navigation.instant
     - navigation.tracking
@@ -48,6 +50,7 @@ theme:
 
 # Plugins
 plugins:
+  - social
   - macros:
       module_name: modules
   - search:
