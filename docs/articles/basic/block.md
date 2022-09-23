@@ -3,7 +3,7 @@
 
 ## Структура блока
 
-**Супервайзер блока А** - [:fontawesome-brands-vk: Павский Артём](https://vk.com/id9241188)
+**Супервайзер блока А** - [:fontawesome-brands-vk: Павский Артём](https://vk.com/id9241188){:target="_blank"}
 
 Блок включает в себя 8 этажей (2, 2+, 3, 4, 5, 6, 6+, 7), при этом ответственность среди них разграничена 5-ю зонами. На блоке действуют три зоны гостеприимства:
 
@@ -17,16 +17,16 @@
     
 | Зона | Локация | Трибуны | Старший стюард |
 | :-- | :-- | :--: | :-- |
-| **`A2`** | 2 этаж<br>2+ этаж<br>Silver Club<br>зона гостеприимства Газпромбанк | D111 — A113 | [:fontawesome-brands-vk: Щиплецова Надежда](https://vk.com/nadyaschipl) |
-| **`A3`** | 3 этаж<br>Diamond Club | A106 — A113 | [:fontawesome-brands-vk: Токранова Мария](https://vk.com/tokranovamari) |
-| **`A4`** | 3 этаж | D111 — A106 | [:fontawesome-brands-vk: Рыбин Егор](https://vk.com/id87519023) |
-| **`A5`** | 5 этаж | А201 — А218 | [:fontawesome-brands-vk: Кошевая Анастасия](https://vk.com/id25374416) |
-| **`A5 Медиа`** | 5 этаж<br>сектор СМИ | А206 — А213 | [:fontawesome-brands-vk: Новосёлова Ольга](https://vk.com/novo.olga) |
-| **`A6`** | 6 этаж<br>6+ этаж | А201 — А218 | [:fontawesome-brands-vk: Рязанцев Денис](https://vk.com/albums68710933) |
+| **`A2`** | 2 этаж<br>2+ этаж<br>Silver Club<br>зона гостеприимства Газпромбанк | D111 — A113 | [:fontawesome-brands-vk: Щиплецова Надежда](https://vk.com/nadyaschipl){:target="_blank"} |
+| **`A3`** | 3 этаж<br>Diamond Club | A106 — A113 | [:fontawesome-brands-vk: Токранова Мария](https://vk.com/tokranovamari){:target="_blank"} |
+| **`A4`** | 3 этаж | D111 — A106 | [:fontawesome-brands-vk: Рыбин Егор](https://vk.com/id87519023){:target="_blank"} |
+| **`A5`** | 5 этаж | А201 — А218 | [:fontawesome-brands-vk: Кошевая Анастасия](https://vk.com/id25374416){:target="_blank"} |
+| **`A5 Медиа`** | 5 этаж<br>сектор СМИ | А206 — А213 | [:fontawesome-brands-vk: Новосёлова Ольга](https://vk.com/novo.olga){:target="_blank"} |
+| **`A6`** | 6 этаж<br>6+ этаж | А201 — А218 | [:fontawesome-brands-vk: Рязанцев Денис](https://vk.com/albums68710933){:target="_blank"} |
 
 ### Как стать частью команды на блоке? { data-toc-label="" }
 
-[:material-send: Подать заявку](https://forms.gle/E8k9f4WAYLC4x2eq5){ .md-button .md-button--primary }
+[:material-send: Подать заявку](https://forms.gle/E8k9f4WAYLC4x2eq5){ .md-button .md-button--primary :target="_blank"}
 
 ## Расположение медицинских пунктов
 
