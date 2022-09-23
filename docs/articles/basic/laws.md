@@ -24,14 +24,6 @@
 - [x] [Дисциплинарный регламент РФС (приложение 2) на матчах РПЛ и Кубка России](https://static.rfs.ru/documents/1/5f22dbb913c1f.pdf). 
 </div>
 
-### Региональный уровень
-
-<div class="result" markdown>
-- [x] [Постановление Правительства Санкт-Петербурга от 13 марта 2020 года № 121](https://docs.cntd.ru/document/564437085)<br><small>
-  :octicons-light-bulb-16:
-  **Подсказка:** Подробнее о сантирных мерах можно прочитать [:material-arrow-right: здесь](../../rules/covid/)</small>
-</div>
-
 ### Местный уровень
 
 <div class="result" markdown>

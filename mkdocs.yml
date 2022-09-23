@@ -114,8 +114,8 @@ nav:
     - Для стюардов:
       - Дресс-код: articles/rules/dress-code.md
       - Кодекс стюарда: articles/rules/code.md
-#      - Санитарные правила: articles/rules/covid.md
       - Права и обязанности стюардов: articles/rules/rights.md
+      - Работа на других мероприятиях: articles/rules/activities.md
     - Для зрителей:
       - Правила поведения зрителей: articles/rules/spectators.md
       - Запрещённые предметы: articles/rules/prohibited_items.md
