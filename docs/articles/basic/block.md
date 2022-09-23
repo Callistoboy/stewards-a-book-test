@@ -19,7 +19,7 @@
 | :-- | :-- | :--: | :-- |
 | **`A2`** | 2 этаж<br>2+ этаж<br>Silver Club<br>зона гостеприимства Газпромбанк | D111 — A113 | [:fontawesome-brands-vk: Щиплецова Надежда](https://vk.com/nadyaschipl) |
 | **`A3`** | 3 этаж<br>Diamond Club | A106 — A113 | [:fontawesome-brands-vk: Токранова Мария](https://vk.com/tokranovamari) |
-| **`A4`** | 3 этаж | D111 — A106 | [:fontawesome-brands-vk: Ковалёва Анфиса](https://vk.com/anfisakov) |
+| **`A4`** | 3 этаж | D111 — A106 | [:fontawesome-brands-vk: Рыбин Егор](https://vk.com/id87519023) |
 | **`A5`** | 5 этаж | А201 — А218 | [:fontawesome-brands-vk: Кошевая Анастасия](https://vk.com/id25374416) |
 | **`A5 Медиа`** | 5 этаж<br>сектор СМИ | А206 — А213 | [:fontawesome-brands-vk: Новосёлова Ольга](https://vk.com/novo.olga) |
 | **`A6`** | 6 этаж<br>6+ этаж | А201 — А218 | [:fontawesome-brands-vk: Рязанцев Денис](https://vk.com/albums68710933) |
