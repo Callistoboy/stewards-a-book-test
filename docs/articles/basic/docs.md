@@ -39,7 +39,7 @@
 
     Необходимо заполнить специальную [форму](https://docs.google.com/forms/d/e/1FAIpQLSdJVl561QeaG0thU_UtDvScg4q5aBLXmXZBL-JudtEvf4pITw/viewform) ЦПВП для восстановления удостоверения КРС. Тебе изготовят дубликат удостоверения с тем номером, который у тебя был.
     
-    [:material-link: Открыть форму](https://docs.google.com/forms/d/e/1FAIpQLSdJVl561QeaG0thU_UtDvScg4q5aBLXmXZBL-JudtEvf4pITw/viewform){ .md-button .md-button--primary }
+    [:octicons-link-external-16: Открыть форму](https://docs.google.com/forms/d/e/1FAIpQLSdJVl561QeaG0thU_UtDvScg4q5aBLXmXZBL-JudtEvf4pITw/viewform){ .md-button .md-button--primary }
 
 
 ??? question "Забыл постоянную аккредитацию"
@@ -55,3 +55,6 @@
 ??? question "Потерял постоянную аккредитацию"
 
     Свяжись со старшим стюардом на своей зоне, будет подана заявка на изготовление новой аккредитации. На время её изготовления тебе необходимо получать временную аккредитацию каждый раз при выходе на мероприятие.
+
+
+*[ЦПВП]: Центр подготовки временного персонала ООО "Зенит Арена"
