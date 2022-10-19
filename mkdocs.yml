@@ -133,7 +133,6 @@ nav:
       - Внутренние трансферы: articles/manuals/transfers.md
       - Расторжение договора: articles/manuals/decline.md
   - Cервисы: 
-    - articles/services.md
     - Сервисы блока:
       - Обратная связь:
         - Описание: articles/feedback/about.md
