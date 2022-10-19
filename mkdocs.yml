@@ -135,7 +135,7 @@ nav:
   - Cервисы: 
     - Сервисы блока:
       - Обратная связь:
-        - Описание: articles/feedback/about.md
+        - articles/feedback/about.md
         - Форма обратной связи: https://forms.yandex.ru/cloud/6171388724395acafe4ec871/
         - Отзывы: reviews.md
         - Обсуждения: https://github.com/Callistoboy/stewards-a-book-test/discussions
