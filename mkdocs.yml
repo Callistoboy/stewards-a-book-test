@@ -112,7 +112,7 @@ nav:
     - Нормативно-правовые документы: articles/basic/laws.md
   - Правила:
     - Для стюардов:
-      - Дресс-код: articles/rules/dress-code.md
+      - Дресс-код: https://vk.com/@zenit_stewards-dress-code
       - Кодекс стюарда: articles/rules/code.md
       - Права и обязанности стюардов: articles/rules/rights.md
       - Работа на других мероприятиях: articles/rules/activities.md
@@ -121,7 +121,9 @@ nav:
       - Запрещённые предметы: articles/rules/prohibited_items.md
       - Запрещённые знаки и символы: articles/rules/prohibited_symbols.md
   - Инструкции:
-    - Приложение:
+    - Fan ID:
+      - Проверка QR-кода: articles/fanid/qrcode.md
+    - Приложение StewardsApp:
       - Установка приложения: articles/app/install.md
       - Авторизация в приложении: articles/app/login.md
       - Сканирование билетов: articles/app/tickets.md
@@ -130,6 +132,7 @@ nav:
       - Эвакуация чаши: articles/manuals/evacuation.md
       - Бесхозный предмет: articles/manuals/ownerless.md
     - Процессы:
+      - Доступ на стадион: articles/manuals/entrance.md
       - Внутренние трансферы: articles/manuals/transfers.md
       - Расторжение договора: articles/manuals/decline.md
   - Cервисы: 
