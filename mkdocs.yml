@@ -56,13 +56,16 @@ plugins:
   - search:
       lang: ru
       lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
 
 # Extra
 extra:
   generator: false
 
 # Customization
-copyright: 2022 &copy; Блок А - ФК Зенит
+copyright: 2023 &copy; Блок А - ФК Зенит
 
 # Extensions
 markdown_extensions:
