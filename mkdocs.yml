@@ -58,7 +58,7 @@ plugins:
       lang: en
   - git-revision-date-localized:
       enable_creation_date: true
-      type: date
+      type: timeago
 
 # Extra
 extra:
