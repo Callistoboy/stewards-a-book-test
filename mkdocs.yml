@@ -57,6 +57,7 @@ plugins:
       lang: ru
       lang: en
   - git-revision-date-localized:
+      locale: ru
       enable_creation_date: true
       type: timeago
 
