@@ -126,8 +126,7 @@ nav:
       - Запрещённые предметы: articles/rules/prohibited_items.md
       - Запрещённые знаки и символы: articles/rules/prohibited_symbols.md
   - Инструкции:
-    - Fan ID:
-      - Проверка QR-кода: articles/fanid/qrcode.md
+    - Приложение Fan ID: articles/fanid/fanid_app.md
     - Приложение StewardsApp:
       - Установка приложения: articles/app/install.md
       - Авторизация в приложении: articles/app/login.md
