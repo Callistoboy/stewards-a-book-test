@@ -19,22 +19,22 @@ hide:
 
 ### Ссылки на скачивание приложения
 
-=== ":material-apple: App Store"
+=== ":fontawesome-brands-app-store: App Store"
 
     <p>![iOS StewardApp](../../assets/images/qr-code-ios.svg){ width="200" }</p>
     <p>[Скачать :octicons-download-16:](https://apps.apple.com/ru/app/госуслуги-карта-болельщика/id6444009263){ .md-button .md-button--primary }</p>
 
-=== ":material-android: Google Play"
+=== ":material-google-play: Google Play"
 
     <p>![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" }</p>
     <p>[Скачать :octicons-download-16:](https://play.google.com/store/apps/details?id=ru.fanid){ .md-button .md-button--primary }</p>
     
-=== ":material-android: RuStore"
+=== ":material-basket-plus: RuStore"
 
     <p>![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" }</p>
     <p>[Скачать :octicons-download-16:](https://apps.rustore.ru/app/ru.fanid){ .md-button .md-button--primary }</p>
     
-=== ":material-android: AppGallery"
+=== ":material-basket-plus: AppGallery"
 
     <p>![Android StewardApp](../../assets/images/qr-code-android.svg){ width="200" }</p>
     <p>[Скачать :octicons-download-16:](https://appgallery.huawei.com/#/app/C107360767){ .md-button .md-button--primary }</p>
