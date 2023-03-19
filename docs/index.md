@@ -1,3 +1,3 @@
 ---
-template: homepage.md
+template: homepage.html
 ---
