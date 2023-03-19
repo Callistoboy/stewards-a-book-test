@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block scripts %}
+{% endblock %}
+{% block content %}
+<style>
+.md-header {
+    background-color: hsla(232,15%,21%,1);
+    box-shadow: none;
+    color: white;
+}
+.highlight {
+    background-color: hsla(232,15%,32%,1);
+    padding: 3px 6px;
+}
+	
+.md-main {
+	background-color: hsla(232,15%,21%,1) !important;
+	color: white;
+	}
+	
+.md-tabs {
+    background-color: hsla(232,15%,21%,1);
+}
+.AboutPageHeader__subtitle {
+width: 60%;
+font-size: 20px;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+.AboutPageMetric {
+	padding-right: 88px;
+}
+.AboutPageHeader__metrics {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.AboutPageMetric__value {
+font-size: 60px;
+font-weight: 600;
+-webkit-font-smoothing: subpixel-antialiased;
+-moz-osx-font-smoothing: auto;
+line-height: 1.5;
+color: var(--md-primary-fg-color);
+}
+.AboutPageMetric__title {
+font-size: 16px;
+line-height: 1.88;
+}
+</style>
+
+<h1 style="font-size: 3em;font-weight: 700;color: white;line-height: 1.2;"><span class="highlight">Удобный и простой<br>инструмент коммуникации</span></h1>
+
+<div class="AboutPageHeader__subtitle">Портал стюардов блока А — первый и единственный общественный ресурс для стюардов блока А стадиона "Газпром Арена". Миссия портала - упростить работу стюардов, предоставляя удобные и простые инструменты коммуникации.</div><div class="AboutPageHeader__metrics">
+	<div class="AboutPageMetric">
+	 <div class="AboutPageMetric__value">135 человек</div>
+	 <div class="AboutPageMetric__title">работает на блоке</div>
+	</div>
+	<div class="AboutPageMetric">
+	 <div class="AboutPageMetric__value">85 человек</div>
+	      <div class="AboutPageMetric__title">в среднем выходят на матч</div>
+	</div>
+	<div class="AboutPageMetric">
+	 <div class="AboutPageMetric__value">6</div>
+	 <div class="AboutPageMetric__title">старших стюардов</div>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+
+<h2>Структура портала</h2>
+
+<h3>Содержательный блок</h3>
+
+<table align="left" border="0" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Общая информация</td>
+			<td>Правила</td>
+			<td>Инструкции</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h3>Сервисный блок</h3>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Сервисы</td>
+			<td>Обсуждения</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+&nbsp;</p>
+
+
+{% endblock %}
+{% block footer %}{% endblock %}
