@@ -1,3 +1,7 @@
+---
+template: homepage.html
+---
+
 <style>.md-typeset .md-button {
     border: none;
 }
