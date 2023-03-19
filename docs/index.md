@@ -161,11 +161,11 @@ template: homepage2.html
                 </a>
                 <div class="AboutPageHeader__metrics">
                     <div class="AboutPageMetric">
-                        <div class="AboutPageMetric__value">{{ variables }}</div>
+                        <div class="AboutPageMetric__value">{{ overall_ste }}</div>
                         <div class="AboutPageMetric__title">активных стюардов</div>
                     </div>
                     <div class="AboutPageMetric">
-                        <div class="AboutPageMetric__value">{{ config }}</div>
+                        <div class="AboutPageMetric__value">{{ avg_ste }}</div>
                         <div class="AboutPageMetric__title">средний выход</div>
                     </div>
                 </div>
