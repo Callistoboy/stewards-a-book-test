@@ -49,15 +49,15 @@ hide:
 }
   
 .review-content-emotion-happy {
-  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../assets/images/smile-positive.svg' }}");
 }
   
 .review-content-emotion-avg {
-  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../assets/images/smile-positive.svg' }}");
 }
   
 .review-content-emotion-sad {
-  background-image: url("{{ '../../../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../assets/images/smile-positive.svg' }}");
 }
 
 .review-date {
