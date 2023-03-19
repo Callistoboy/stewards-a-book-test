@@ -1,5 +1,5 @@
 ---
-template: homepage2.html
+template: homepage.html
 ---
 
 <section class="mdx-container">
