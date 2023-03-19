@@ -16,5 +16,5 @@ def define_env(env):
         
         return json.loads(r.get(key))
 
-    env.variables.overall_ste = redis_get("a_stewards_count", True)
-    env.variables.avg_ste = redis_get("a_stewards_avg_count", True)
+    env.variables.overall_ste = int(redis_get("a_stewards_count", True))
+    env.variables.avg_ste = int(redis_get("a_stewards_avg_count", True))
