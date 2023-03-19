@@ -1,6 +1,3 @@
-{% block tabs %}
-{{ super() }}
-
 <style>.md-typeset .md-button {
     border: none;
 }
@@ -172,6 +169,3 @@
         </div>
     </div>
 </section>
-{% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
