@@ -50,11 +50,11 @@ theme:
 # Plugins
 plugins:
   - social
-  - macros:
-      module_name: modules
   - search:
       lang: ru
       lang: en
+  - macros:
+      module_name: modules
   - git-revision-date-localized:
       locale: ru
       enable_creation_date: false
