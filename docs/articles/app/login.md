@@ -15,7 +15,7 @@ hide:
 
 ??? note "Скриншоты окна авторизации"
 
-    ![](../../assets/images/app-4.jpg){ max-width: "50%" } ![](../../assets/images/app-5.jpg){ max-width: "50%" }
+    ![](../../assets/images/app-4.jpg){ max-width: "40%" } ![](../../assets/images/app-5.jpg){ max-width: "40%" }
 
 !!! success "Авторизация прошла успешно"
 
