@@ -11,7 +11,7 @@ hide:
 
 *[FARE]: Оргнизация «Футбол против расизма в Европе» («Football Against Racism in Europe»)
 
-[Скачать инструкцию FARE](..../assets/files/FARE_2018.pdf){ .md-button .md-button--primary }
+[Скачать инструкцию FARE](../../assets/files/FARE_2018.pdf){ .md-button .md-button--primary }
 
 ``` markdown title="Основные запрещенные символы из инструкции"
 1.  Использовавшиеся в фашистской символике свастики, кельтские кресты, 
