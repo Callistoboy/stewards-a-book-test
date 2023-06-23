@@ -53,11 +53,11 @@ hide:
 }
   
 .review-content-emotion-avg {
-  background-image: url("{{ '../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../assets/images/smile-neutral.svg' }}");
 }
   
 .review-content-emotion-sad {
-  background-image: url("{{ '../assets/images/smile-positive.svg' }}");
+  background-image: url("{{ '../assets/images/smile-negative.svg' }}");
 }
 
 .review-date {
